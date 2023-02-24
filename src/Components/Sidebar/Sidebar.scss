@@ -1,0 +1,24 @@
+.sidebar {
+  width: 230px;
+}
+
+.sidebar__categories {
+  flex-direction: column;
+}
+
+.sidebar__category {
+  padding: 12px 25px;
+}
+
+.sidebar__category span {
+  margin-left: 15px;
+}
+
+.sidebar__category:hover {
+  background: #e5e5e5;
+  cursor: pointer;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}

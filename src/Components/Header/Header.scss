@@ -1,0 +1,23 @@
+.header{
+  padding: 15px;
+}
+
+.header i {
+  padding: 0 7px;
+  cursor: pointer;
+}
+
+.header__search form {
+  border: 1px solid #ddd;
+}
+
+.header__search input {
+  width: 500px;
+  padding: 10px;
+  border: none;
+}
+
+.header__search button {
+  border: none;
+  border-radius: 0;
+}
